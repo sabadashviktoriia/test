@@ -1,0 +1,32 @@
+name: CI Build Check
+on:
+  push:
+    paths-ignore:
+      - 'docs/**'
+      - '**/*.md'
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - 'docs/**'
+      - '**/*.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Docker toolchain image
+        run: docker build -t stm32-build docker/
+
+      - name: Build firmware
+        run: make build
+
+      - name: Verify build artifacts
+        run: |
+          ls firmware/build/*.bin
+          ls firmware/build/*.elf
+          ls firmware/build/*.hex
