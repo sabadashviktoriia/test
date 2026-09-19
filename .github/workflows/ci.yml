@@ -4,12 +4,14 @@ on:
     paths-ignore:
       - 'docs/**'
       - '**/*.md'
+      - '**/*.pdf'
   pull_request:
     branches:
       - main
     paths-ignore:
       - 'docs/**'
       - '**/*.md'
+      - '**/*.pdf'
 
 jobs:
   build:
@@ -26,7 +28,10 @@ jobs:
         run: make build
 
       - name: Verify build artifacts
-        run: |
-          ls firmware/build/*.bin
-          ls firmware/build/*.elf
-          ls firmware/build/*.hex
+        uses: actions/upload-artifact@v4
+        with:
+          path: |
+            firmware/build/*.bin
+            firmware/build/*.elf
+            firmware/build/*.hex
+          if-no-files-found: error
