@@ -3,7 +3,6 @@ CMakeCache.txt
 CMakeFiles
 CMakeScripts
 Testing
-Makefile
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
@@ -44,3 +43,15 @@ Thumbs.db
 
 # Логи налагодження та запису
 *.log
+build/
+firmware/build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+.DS_Store
+.vscode/
+.idea/
+*.swp
