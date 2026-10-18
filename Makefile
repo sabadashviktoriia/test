@@ -18,3 +18,7 @@ flash:
 
 monitor:
 	picocom -b 115200 --imap lfcrlf $(PORT)
+
+.PHONY: check-layers
+check-layers:
+	@bash scripts/check_layers.sh
