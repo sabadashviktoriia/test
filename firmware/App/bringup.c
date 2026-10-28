@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include "bringup.h"
 #include "bus_adapters.h"
-#include "metrics.h"
 
 #define LSM303D_ADDR   0x1D
 #define L3GD20H_ADDR   0x6B
@@ -401,8 +400,7 @@ void app_bringup_run(void)
         cmd_buf[cmd_idx] = '\0';
         cmd_idx = 0;
 
-        metrics_evt_log(METRICS_EVT_CMD_RX);
-        if (strcmp(cmd_buf, "help") == 0) printf("Commands: help id i2c spi flash sccb uart data stats statrst evt evtrst stack heap load probe\r\n");
+        if (strcmp(cmd_buf, "help") == 0) printf("Commands: help id i2c spi flash sccb uart data\r\n");
         else if (strcmp(cmd_buf, "id") == 0) app_selftest();
         else if (strcmp(cmd_buf, "i2c") == 0) cmd_i2c();
         else if (strcmp(cmd_buf, "data") == 0) cmd_data();
@@ -410,16 +408,7 @@ void app_bringup_run(void)
         else if (strcmp(cmd_buf, "flash") == 0) cmd_flash();
         else if (strcmp(cmd_buf, "sccb") == 0) cmd_sccb();
         else if (strcmp(cmd_buf, "uart") == 0) cmd_uart();
-        else if (strcmp(cmd_buf, "stats") == 0) metrics_stats();
-        else if (strcmp(cmd_buf, "statrst") == 0) metrics_stats_reset();
-        else if (strcmp(cmd_buf, "evt") == 0) metrics_evt_dump();
-        else if (strcmp(cmd_buf, "evtrst") == 0) metrics_evt_reset();
-        else if (strcmp(cmd_buf, "stack") == 0) metrics_stack_report();
-        else if (strcmp(cmd_buf, "heap") == 0) metrics_heap_report();
-        else if (strcmp(cmd_buf, "load") == 0) metrics_load_report();
-        else if (strcmp(cmd_buf, "probe") == 0) metrics_probe_set(!metrics_probe_enabled());
         else printf("[?] unknown: '%s'\r\n", cmd_buf);
-        metrics_evt_log(METRICS_EVT_CMD_DONE);
     } else if (cmd_idx < CMD_BUF_SIZE - 1) {
         cmd_buf[cmd_idx++] = (char)byte;
     } else {

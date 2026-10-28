@@ -24,6 +24,8 @@
 #include <stdio.h>
 #include "bringup.h"
 #include "metrics.h"
+#include "super_loop.h"
+#include "drivers_stub.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -84,8 +86,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-  stack_paint();
-  perf_init();
+
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -94,7 +95,8 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  perf_init();
+  stack_paint();
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -114,7 +116,12 @@ int main(void)
   /* USER CODE BEGIN 2 */
   app_bringup_init();
   setvbuf(stdout, NULL, _IONBF, 0);
+  perf_init();
+  stack_paint();
   metrics_init();
+  metrics_probe_set(1);
+  Drivers_InitAll();
+  SuperLoop_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -123,7 +130,7 @@ int main(void)
   while (1)
   {
     app_bringup_run();
-    metrics_poll();
+    SuperLoop_Run();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

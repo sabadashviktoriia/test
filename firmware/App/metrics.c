@@ -51,8 +51,8 @@ static uint32_t evt_wr = 0;
 static uint32_t evt_rd = 0;
 static uint32_t evt_drop = 0;
 
-static const char *evt_n[10] = { "btn_press", "btn_react", "cmd_rx", "cmd_done",
-    "capture_start", "capture_done", "flash_start", "flash_done", "user0", "user1" };
+static const char *evt_n[8] = { "btn_press", "btn_react", "cmd_rx", "cmd_done",
+    "capture_start", "capture_done", "flash_start", "flash_done" };
 
 static int probe_en = 0;
 
@@ -202,7 +202,7 @@ void metrics_evt_log(int id)
     uint64_t t;
     uint32_t slot;
 
-    if (id < 0 || id > 9) return;
+    if (id < 0 || id > 7) return;
 
     pm = __get_PRIMASK();
     __disable_irq();
