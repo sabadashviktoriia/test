@@ -2,7 +2,7 @@
 CC      := gcc
 BUILD   := build
 CFLAGS  := -std=gnu99 -Wall -Wextra -g -O0 -I. -I../firmware/Platform -I../firmware/App
-SRCS    := test_bringup.c fakes/fake_bus.c
+SRCS    := test_bringup.c fakes/fake_bus.c fakes/fake_metrics.c
 
 .PHONY: run clean coverage
 run: $(BUILD)/test_bringup
