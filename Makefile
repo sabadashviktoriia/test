@@ -22,3 +22,10 @@ monitor:
 .PHONY: check-layers
 check-layers:
 	@bash scripts/check_layers.sh
+
+.PHONY: test coverage
+test:
+	$(MAKE) -C tests run
+
+coverage:
+	$(MAKE) -C tests coverage

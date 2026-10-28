@@ -35,3 +35,16 @@ jobs:
             firmware/build/*.elf
             firmware/build/*.hex
           if-no-files-found: error
+
+  test:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Host unit tests
+        run: make test
+
+      - name: Code coverage report
+        run: make coverage

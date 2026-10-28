@@ -1,0 +1,609 @@
+i2c-1: Start
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: Read
+i2c-1: Address read: 1D
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 4D
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data read: FE
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data read: F8
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 7F
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data read: 8E
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 43
+i2c-1: NACK
+i2c-1: Stop
+i2c-1: Start
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: Write
+i2c-1: Address write: 6B
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data write: A8
+i2c-1: ACK
+i2c-1: Start repeat
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: Read
+i2c-1: Address read: 6B
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data read: 9B
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data read: FF
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 50
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 01
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 7B
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 00
+i2c-1: NACK
+i2c-1: Stop
+i2c-1: Start
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Write
+i2c-1: Address write: 77
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data write: AA
+i2c-1: ACK
+i2c-1: Start repeat
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Read
+i2c-1: Address read: 77
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 19
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data read: 9C
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data read: FB
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 72
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data read: C6
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data read: 8E
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data read: 85
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data read: F0
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 62
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 60
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 34
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 0D
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 19
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 73
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 00
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 2D
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data read: 80
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 00
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data read: D1
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data read: F6
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 0A
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data read: 94
+i2c-1: NACK
+i2c-1: Stop
+i2c-1: Start
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Write
+i2c-1: Address write: 77
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data write: F4
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data write: 2E
+i2c-1: ACK
+i2c-1: Stop
+i2c-1: Start
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Write
+i2c-1: Address write: 77
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data write: F6
+i2c-1: ACK
+i2c-1: Start repeat
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Read
+i2c-1: Address read: 77
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 54
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data read: BB
+i2c-1: NACK
+i2c-1: Stop
+i2c-1: Start
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Write
+i2c-1: Address write: 77
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data write: F4
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data write: 34
+i2c-1: ACK
+i2c-1: Stop
+i2c-1: Start
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Write
+i2c-1: Address write: 77
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data write: F6
+i2c-1: ACK
+i2c-1: Start repeat
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: Read
+i2c-1: Address read: 77
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: Data read: 9F
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: Data read: D6
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data read: 00
+i2c-1: NACK
+i2c-1: Stop

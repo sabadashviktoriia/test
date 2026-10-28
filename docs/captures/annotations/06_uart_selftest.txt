@@ -1,0 +1,35 @@
+uart-1: Start bit
+uart-1: 1
+uart-1: 1
+uart-1: 0
+uart-1: 0
+uart-1: 0
+uart-1: 0
+uart-1: 1
+uart-1: 1
+uart-1: [C3]
+uart-1: Frame error
+uart-1: Stop bit
+uart-1: Start bit
+uart-1: 1
+uart-1: 1
+uart-1: 0
+uart-1: 0
+uart-1: 0
+uart-1: 0
+uart-1: 1
+uart-1: 0
+uart-1: C
+uart-1: Frame error
+uart-1: Stop bit
+uart-1: Start bit
+uart-1: 1
+uart-1: 0
+uart-1: 0
+uart-1: 0
+uart-1: 0
+uart-1: 1
+uart-1: 1
+uart-1: 1
+uart-1: [E1]
+uart-1: Stop bit

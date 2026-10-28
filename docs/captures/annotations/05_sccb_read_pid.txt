@@ -1,0 +1,69 @@
+i2c-1: Start
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: Read
+i2c-1: Address read: 21
+i2c-1: ACK
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 76
+i2c-1: NACK
+i2c-1: Stop
+i2c-1: Start
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: Write
+i2c-1: Address write: 21
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: Data write: 0B
+i2c-1: ACK
+i2c-1: Stop
+i2c-1: Start
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 0
+i2c-1: Read
+i2c-1: Address read: 21
+i2c-1: ACK
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: 0
+i2c-1: 1
+i2c-1: 1
+i2c-1: 1
+i2c-1: 0
+i2c-1: Data read: 73
+i2c-1: NACK
+i2c-1: Stop

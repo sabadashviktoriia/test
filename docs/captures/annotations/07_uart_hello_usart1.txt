@@ -1,0 +1,11 @@
+uart-1: [0D]
+uart-1: [0D]
+uart-1: [0A]
+uart-1: H
+uart-1: e
+uart-1: l
+uart-1: l
+uart-1: o
+uart-1: !
+uart-1: [0D]
+uart-1: [0A]
