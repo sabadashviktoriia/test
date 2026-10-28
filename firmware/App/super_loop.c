@@ -46,6 +46,10 @@ void SuperLoop_EnableTask(SuperLoop_TaskID_t task_id, bool enable) {
     }
 }
 
+uint32_t SuperLoop_TaskPeriodMs(SuperLoop_TaskID_t task_id) {
+    return (task_id < TASK_COUNT) ? g_tasks[task_id].period_ms : 0;
+}
+
 void SuperLoop_Run(void) {
     while (1) {
         Metrics_OnLoopStart();

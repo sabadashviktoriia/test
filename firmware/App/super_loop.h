@@ -31,6 +31,11 @@ typedef struct {
 void SuperLoop_Init(void);
 void SuperLoop_Run(void);
 void SuperLoop_EnableTask(SuperLoop_TaskID_t task_id, bool enable);
+uint32_t SuperLoop_TaskPeriodMs(SuperLoop_TaskID_t task_id);
+void Metrics_OnLoopStart(void);
+void Metrics_OnLoopEnd(void);
+void Metrics_OnTaskStart(SuperLoop_TaskID_t task_id);
+void Metrics_OnTaskEnd(SuperLoop_TaskID_t task_id);
 
 #ifdef __cplusplus
 }

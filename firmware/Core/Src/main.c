@@ -23,6 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
 #include "bringup.h"
+#include "metrics.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -83,7 +84,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+  stack_paint();
+  perf_init();
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -112,6 +114,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   app_bringup_init();
   setvbuf(stdout, NULL, _IONBF, 0);
+  metrics_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -120,6 +123,7 @@ int main(void)
   while (1)
   {
     app_bringup_run();
+    metrics_poll();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -443,6 +447,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(CAM_SDA_GPIO_Port, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
