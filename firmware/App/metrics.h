@@ -9,6 +9,20 @@
 extern "C" {
 #endif
 
+typedef enum {
+    METRICS_EVT_BTN_PRESS = 0,
+    METRICS_EVT_BTN_REACT,
+    METRICS_EVT_CMD_RX,
+    METRICS_EVT_CMD_DONE,
+    METRICS_EVT_CAPTURE_START,
+    METRICS_EVT_CAPTURE_DONE,
+    METRICS_EVT_FLASH_START,
+    METRICS_EVT_FLASH_DONE,
+    METRICS_EVT_USER0,
+    METRICS_EVT_USER1,
+    METRICS_EVT_COUNT
+} metrics_evt_id_t;
+
 void perf_init(void);
 uint32_t perf_now(void);
 void metrics_init(void);

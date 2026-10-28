@@ -1,7 +1,7 @@
 # Хостові тести:
 CC      := gcc
 BUILD   := build
-CFLAGS  := -std=gnu99 -Wall -Wextra -g -O0 -I. -I../firmware/Platform -I../firmware/App
+CFLAGS  := -std=gnu99 -Wall -Wextra -g -O0 -I. -I../firmware/Platform -I../firmware/App -I../firmware/Core/Inc
 SRCS    := test_bringup.c fakes/fake_bus.c
 
 .PHONY: run clean coverage
