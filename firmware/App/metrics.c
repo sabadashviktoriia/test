@@ -1,3 +1,4 @@
+#include "main.h"
 #include "metrics.h"
 #include "super_loop.h"
 #include <stdio.h>
@@ -106,10 +107,11 @@ uint64_t metrics_now_us(void)
     return us_base;
 }
 
-void Metrics_OnTaskStart(int id)
+void Metrics_OnTaskStart(SuperLoop_TaskID_t task_id)
 {
     uint64_t now;
     int32_t period;
+    int id = (int)task_id;
 
     if (id < 0 || id > 4) return;
 
@@ -129,9 +131,10 @@ void Metrics_OnTaskStart(int id)
     if (probe_en && id < 4) probe_on(id);
 }
 
-void Metrics_OnTaskEnd(int id)
+void Metrics_OnTaskEnd(SuperLoop_TaskID_t task_id)
 {
     uint32_t cyc;
+    int id = (int)task_id;
 
     if (id < 0 || id > 4) return;
 
@@ -189,7 +192,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     if (GPIO_Pin == B1_Pin) {
         btn_t0 = perf_now();
         btn_flag = 1;
-        metrics_evt_log(0);
+        metrics_evt_log(METRICS_EVT_BTN_PRESS);
     }
 }
 
